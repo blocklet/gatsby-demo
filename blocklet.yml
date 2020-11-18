@@ -1,16 +1,16 @@
 name: gatsby-demo
 description: A static blocklet powered by Gatsby
-version: 0.1.0
+group: static
+version: 0.1.1
 main: public
 title: Gatsby Demo
+publicUrl: /
 author: ArcBlock
+charging:
+  price: 0
 capabilities:
   dynamicPathPrefix: false
 scripts:
   dev: npm run start
-group: static
-publicUrl: /
-charging:
-  price: 0
-did: z8iZjXmmsTbsZc8sJHxgojwFqTU7wpe19mXBi
 specVersion: 1.0.0
+did: z8iZjXmmsTbsZc8sJHxgojwFqTU7wpe19mXBi
