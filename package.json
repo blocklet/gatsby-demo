@@ -32,7 +32,6 @@
     "prettier": "2.1.2"
   },
   "license": "MIT",
-  "main": "public",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -42,9 +41,18 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+  "files": [
+    "public"
+  ],
   "blocklet": {
     "scripts": {
       "dev": "npm run start"
+    },
+    "main": "public",
+    "author": "ArcBlock",
+    "title": "Gatsby Demo",
+    "capabilities": {
+      "dynamicPathPrefix": false
     }
   }
 }
