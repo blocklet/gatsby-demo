@@ -43,16 +43,5 @@
   },
   "files": [
     "public"
-  ],
-  "blocklet": {
-    "scripts": {
-      "dev": "npm run start"
-    },
-    "main": "public",
-    "author": "ArcBlock",
-    "title": "Gatsby Demo",
-    "capabilities": {
-      "dynamicPathPrefix": false
-    }
-  }
+  ]
 }
