@@ -1,16 +1,27 @@
 name: gatsby-demo
 description: A static blocklet powered by Gatsby
-group: static
 version: 0.1.1
+author:
+  name: ArcBlock
+license: MIT
+files:
+  - public
+group: static
 main: public
 title: Gatsby Demo
-publicUrl: /
-author: ArcBlock
-charging:
-  price: 0
-capabilities:
-  dynamicPathPrefix: false
 scripts:
   dev: npm run start
-specVersion: 1.0.0
+specVersion: 1.0.1
 did: z8iZjXmmsTbsZc8sJHxgojwFqTU7wpe19mXBi
+community: ''
+documentation: ''
+homepage: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: /
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
