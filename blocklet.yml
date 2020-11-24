@@ -1,6 +1,6 @@
 name: gatsby-demo
 description: A static blocklet powered by Gatsby
-version: 0.1.1
+version: 0.1.2
 author:
   name: ArcBlock
 license: MIT
@@ -25,3 +25,7 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
