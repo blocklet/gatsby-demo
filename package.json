@@ -40,8 +40,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "release": "npm run clean && npm run build && abtnode bundle --create-release",
-    "deploy": "npm run release && abtnode deploy .blocklet/bundle"	
+    "bundle": "npm run clean && npm run build && abtnode bundle --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"	
   },
   "files": [
     "public"
