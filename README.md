@@ -21,7 +21,7 @@ cd gatsby-demo
 npm install
 abtnode init --mode debug
 abtnode start
-abtnode dev
+blocklet dev
 ```
 
 ## License
