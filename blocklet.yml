@@ -5,13 +5,19 @@ author:
   name: ArcBlock
 license: MIT
 files:
+  - blocklet.md
+  - README.md
   - public
+keywords:
+  - static
+  - demo
+  - gatsby
 group: static
 main: public
 title: Gatsby Demo
 scripts:
   dev: npm run start
-specVersion: 1.0.1
+specVersion: 1.0.2
 did: z8iZjXmmsTbsZc8sJHxgojwFqTU7wpe19mXBi
 community: ''
 documentation: ''
@@ -27,5 +33,7 @@ environments: []
 screenshots: []
 timeout:
   start: 10
-capabilities:
-  dynamicPathPrefix: true
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
