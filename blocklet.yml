@@ -1,6 +1,6 @@
 name: gatsby-demo
 description: A static blocklet powered by Gatsby
-version: 1.0.0
+version: 1.0.1
 author:
   name: ArcBlock
 license: MIT
@@ -37,3 +37,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
+charging:
+  price: 0
+  tokens: []
+  shares: []
+children: []

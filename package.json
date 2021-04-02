@@ -2,7 +2,7 @@
   "name": "gatsby-demo",
   "private": true,
   "description": "A static blocklet powered by Gatsby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "ArcBlock",
   "dependencies": {
     "gatsby": "^2.24.85",
