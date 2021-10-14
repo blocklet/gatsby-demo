@@ -1,6 +1,6 @@
 name: gatsby-demo
 description: A static blocklet powered by Gatsby
-version: 1.0.1
+version: 1.0.2
 author:
   name: ArcBlock
 license: MIT
@@ -17,7 +17,7 @@ main: public
 title: Gatsby Demo
 scripts:
   dev: npm run start
-specVersion: 1.0.2
+specVersion: 1.1.1
 did: z8iZjXmmsTbsZc8sJHxgojwFqTU7wpe19mXBi
 community: ''
 documentation: ''
@@ -42,3 +42,4 @@ charging:
   tokens: []
   shares: []
 children: []
+capabilities: {}
